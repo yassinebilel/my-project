@@ -82,6 +82,7 @@ h1 {
 p {
   color: #a8a1a1;
   width: 400px;
+  font-size: 20px;
 }
 .price {
   color: rgb(0, 0, 0);
@@ -275,4 +276,37 @@ p {
 }
 
 .next {
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.myimagee-swiper {
+  width: 600px;
+  height: 400px;
+}
+
+.prev-btn {
+  left: 0;
+}
+.next-btn {
+  right: 0;
+}
+.prev-btn,
+.next-btn {
+  position: absolute;
+
+  cursor: pointer;
+}
+#photo {
+  width: 250px;
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
 }
