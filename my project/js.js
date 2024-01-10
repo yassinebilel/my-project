@@ -80,4 +80,8 @@ $(document).ready(function () {
   });
 });
 
-
+$(document).ready(function () {
+  $(".my-imagee").on("click", function () {
+    window.location.href = "https://www.lamborghini.com/en-en";
+  });
+});
